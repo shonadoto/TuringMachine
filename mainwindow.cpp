@@ -37,12 +37,13 @@ MainWindow::MainWindow(QWidget *parent)
   ui->eraseButton->setStyleSheet("QPushButton{background-color: rgba(98,213,208, 200);}");
   ui->clearButton->setStyleSheet("QPushButton{background-color: rgba(98,213,208, 200);}");
   ui->maxButton->setStyleSheet("QPushButton{background-color: rgba(98,213,208, 200);}");;
-
-  //QPixmap bkgnd("C:/Users/vanko/Documents/prakTuring/anime.jpg");
+/*
+  QPixmap bkgnd("C:/Users/vanko/Documents/prakTuring/anime.jpg");
   bkgnd = bkgnd.scaled(this->size(), Qt::IgnoreAspectRatio);
   QPalette palette;
   palette.setBrush(QPalette::Background, bkgnd);
   this->setPalette(palette);
+  */
   ui->lineTable->setColumnCount(col_cnt);
   ui->lineTable->setRowCount(1);
   ui->lineTable->verticalHeader()->hide();
